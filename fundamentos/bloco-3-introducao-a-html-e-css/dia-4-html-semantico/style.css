@@ -121,6 +121,11 @@ i
 {
     margin: 5px;
 }
+section
+{
+    text-align: center;
+    margin: 20px;
+}
 footer
 {
     display: flex;
