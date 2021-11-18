@@ -11,12 +11,25 @@ const myWebpage = document.getElementById('my-spotrybefy');
 
 // 2. Crie uma função que adicione a classe 'tech' ao elemento `li` quando for clicado.
 // 2.1. Deve existir apenas um elemento com a classe 'tech'. Como você faz isso?
-firstLi.addEventListener('click', classTech);
-function classTech ()
-{
-    firstLi.classList = 'tech';
-}
 
+let ul = document.getElementsByTagName ('ul');
+let li = document.getElementsByTagName ('li');
+let listaTam = ul[0].children.length;
+
+ul[0].addEventListener ('click', classTach)
+
+function classTach (e)
+{
+  e.target.classList.add('tech');
+  e.target.id;
+  for (let i =0; i< listaTam; i++) 
+  {
+    if(e.target.id !=  li[i].id)
+    {
+      li[i].classList.remove('tech');
+    }
+  }
+}
 // 3. Crie uma função que, ao digitar na caixa de texto, altere o texto do elemento
 // com a classe 'tech';
 const inp = document.getElementsByTagName ('input');
@@ -40,6 +53,19 @@ function redireciona ()
 
 // 5. Crie uma função que, ao passar o mouse sobre 'Meu top 3 do Spotrybefy', altere
 // a cor do mesmo;
+
+meuTop.addEventListener('mouseover', mudarCor);
+function mudarCor ()
+{
+  meuTop.style = "color: red;"
+}
+
+meuTop.addEventListener("mouseout", voltarCor);
+function voltarCor ()
+{
+  meuTop.style = "color: #fff;"
+}
+
 
 // Segue abaixo um exemplo do uso de event.target:
 
