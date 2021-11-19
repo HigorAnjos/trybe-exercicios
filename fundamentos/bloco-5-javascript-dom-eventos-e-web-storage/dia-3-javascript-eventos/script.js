@@ -39,3 +39,32 @@ function montarLista (dezDaysList)
   
 }
 montarLista(dezDaysList);
+
+function criarBotao (text)
+{
+  let btn = document.querySelector (".buttons-container");
+  let botao = document.createElement ('button');
+  botao.setAttribute('id', "btn-holiday");
+  botao.innerText = text;
+  btn.appendChild(botao);
+}
+criarBotao("Feriados");
+
+function corFeriado ()
+{
+  let holiday =  document.querySelectorAll ('.holiday')
+  for (let i =0; i< holiday.length; i++)
+  {
+    holiday[i].classList.toggle("cor-de-fundo")
+  }
+}
+let botaoSelectAll = document.querySelector ("button");
+botaoSelectAll.addEventListener('click', corFeriado);
+
+
+
+
+
+
+
+
