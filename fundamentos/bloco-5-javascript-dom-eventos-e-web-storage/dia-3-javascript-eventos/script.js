@@ -105,15 +105,40 @@ function corTarefa (cor)
 {
   
   let div = document.createElement ('div');
+  div.classList = 'task';
   div.style = `background-color: ${cor};`;
   let e = document.querySelector ('.my-tasks');
   e.appendChild(div);
 }
 
 criarTarefa("cozinha");
-corTarefa('blue');
-criarTarefa("cozinha");
-corTarefa('green');
+corTarefa('greenyellow');
+
 
 /**Requisito 9 e 10*/
+
+let tarefas = document.querySelector ('.my-tasks'); // HTMLcolection
+for (let i in tarefas.children)
+{
+  if (tarefas.children[i].tagName == 'DIV' && tarefas.children[i].style.backgroundColor)
+  {
+    tarefas.children[i].addEventListener ('click', taskSelected);
+  }
+}
+function taskSelected (e)
+{
+  e.target.classList.toggle("selected");
+}
+// 10
+let Dayss = document.getElementsByClassName ("day"); // NodeList
+for (let i =0; i< Days.length; i++)
+{
+  Dayss[i].addEventListener ('click', corDays);
+}
+function corDays (e)
+{
+  e.target.classList.toggle ('days-color');
+}
+
+
 

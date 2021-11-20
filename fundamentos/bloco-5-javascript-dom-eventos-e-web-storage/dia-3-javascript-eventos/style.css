@@ -155,7 +155,7 @@
   }
   .cor-de-fundo 
   {
-    background-color: red;
+    background-color: cyan;
   }
   .texto-sexta 
   {
@@ -164,5 +164,9 @@
   #days .zoom
   {
     font-size: 40px;
+  }
+  .days-color
+  {
+    background-color: greenyellow;
   }
   
