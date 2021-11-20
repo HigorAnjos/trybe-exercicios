@@ -36,7 +36,9 @@ const inp = document.getElementsByTagName ('input');
 inp[0].addEventListener('keyup', alterarTexto);
 function alterarTexto ()
 {
-  firstLi.innerText = "NOVO texto";
+  let tech = document.querySelector ('.tech');
+  console.log(tech);
+  tech.innerText = "NOVO texto";
 }
 
 
