@@ -140,5 +140,50 @@ function corDays (e)
   e.target.classList.toggle ('days-color');
 }
 
+/**Bonus */
 
+let butn = document.querySelector ('#btn-add')
+
+let boxText = document.querySelector ('input')
+butn.addEventListener ('click', enviaClick);
+boxText.addEventListener ('keypress', enviaEnter);
+
+
+function enviaClick ()
+{
+  let boxTxt = document.querySelector ('input')
+  if (boxTxt.value.length == 0)
+  {
+    alert("Campo COMPROMISSOS Vazio")
+  }
+  else
+  {
+    let lista = document.querySelector ('.task-list');
+    console.log (lista);
+    let li = document.createElement ('li');
+    li.innerHTML = boxTxt.value;
+    lista.appendChild (li);
+  }
+
+}
+
+function enviaEnter (e)
+{
+  let boxTxt = document.querySelector ('input')
+  if (boxTxt.value.length == 0)
+  {
+    alert("Campo COMPROMISSOS Vazio")
+  }else
+  {
+    if (e.key === 'Enter')
+    {
+      let lista =  document.querySelector ('.task-list');
+      let li = document.createElement ('li');
+      li.innerHTML = boxTxt.value;
+      lista.appendChild (li);
+    }
+  }
+  
+  
+}
 
