@@ -168,21 +168,24 @@ function enviaClick ()
 }
 
 function enviaEnter (e)
-{
-  let boxTxt = document.querySelector ('input')
-  if (boxTxt.value.length == 0)
+{ 
+  if (e.key === 'Enter')
   {
-    alert("Campo COMPROMISSOS Vazio")
-  }else
-  {
-    if (e.key === 'Enter')
+    let boxTxt = document.querySelector ('input')
+    if (boxTxt.value.length == 0)
+    {
+      alert("Campo COMPROMISSOS Vazio")
+    }
+    else
     {
       let lista =  document.querySelector ('.task-list');
       let li = document.createElement ('li');
       li.innerHTML = boxTxt.value;
       lista.appendChild (li);
     }
+    
   }
+  
   
   
 }
