@@ -82,7 +82,6 @@ function textoSexta ()
 }
 
 let Days = document.getElementsByClassName ("day");
-
 for (let i =0; i< Days.length; i++)
 {
   Days[i].addEventListener ('mouseover', zoomDays);
@@ -94,10 +93,27 @@ function zoomDays (e)
 }
 
 
+/**Requisito 7 e 8*/
+function criarTarefa (string)
+{
+  let span = document.createElement ('span');
+  let e = document.querySelector ('.my-tasks');
+  span.innerHTML = string;
+  e.appendChild (span);
+}
+function corTarefa (cor)
+{
+  
+  let div = document.createElement ('div');
+  div.style = `background-color: ${cor};`;
+  let e = document.querySelector ('.my-tasks');
+  e.appendChild(div);
+}
 
+criarTarefa("cozinha");
+corTarefa('blue');
+criarTarefa("cozinha");
+corTarefa('green');
 
-
-
-
-
+/**Requisito 9 e 10*/
 
