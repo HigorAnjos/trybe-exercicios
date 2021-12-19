@@ -60,7 +60,7 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [x] 7.3 - Testes unitários em JavaScript
 - [x] 7.4 - Projeto - JavaScript Testes Unitários
 
-##### Bloco 8: [Higher Order Functions do JavaScript ES6](#)
+##### Bloco 8: [Higher Order Functions do JavaScript ES6](#) :hourglass_flowing_sand:
 - [x] 8.1 - JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort
 - [x] 8.2 - JavaScript ES6 - Higher Order Functions - map e filter
 - [x] 8.3 - JavaScript ES6 - Higher Order Functions - reduce
@@ -127,7 +127,7 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 ##### Bloco 19: Projeto App de Receitas
 - [ ] 19.1 - Projeto - App de Receitas
 
-## Desenvolvimento Back-end :hourglass_flowing_sand:
+## Desenvolvimento Back-end 
 
 ##### Bloco 20: [Introdução à SQL](#)
 - [ ] 20.1 - Introdução - Back-end
