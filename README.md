@@ -78,7 +78,7 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [ ] 10.3 - Jest - Simulando comportamentos
 - [ ] 10.4 - Projeto - Jest Assíncrono e Mocking
 
-## Desenvolvimento Front-end :heavy_check_mark:
+## Desenvolvimento Front-end 
 
 ##### Bloco 11: [Introdução à React](#)
 - [ ] 11.1 - Introdução - Front-end
@@ -210,7 +210,7 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 ##### Bloco 32: Projeto Trybeer II
 - [ ] 32.1 - Projeto - Trybeer v2
 
-## Ciência da Computação :hourglass_flowing_sand:
+## Ciência da Computação 
 
 ##### Bloco 33: Arquitetura de Computadores e Redes
 - [ ] 33.1 - Introdução - Ciência da Computação
