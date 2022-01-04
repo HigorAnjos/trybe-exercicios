@@ -60,3 +60,7 @@ const books = [
     releaseYear: 1928,
   },
 ];
+
+const resp =  books.find((book) => (book.author.name.split(' ').filter((word) => word.endsWith('.')).length === 3)).name;
+
+console.log(resp)
