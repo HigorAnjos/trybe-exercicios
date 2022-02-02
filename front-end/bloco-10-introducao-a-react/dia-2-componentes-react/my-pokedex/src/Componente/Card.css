@@ -1,0 +1,11 @@
+.card-content {
+  border: 3px solid black;
+  margin: 20px;
+
+  display: flex;
+  justify-content: space-evenly;
+
+  width: 200px;
+  padding: 20px;
+  
+}
