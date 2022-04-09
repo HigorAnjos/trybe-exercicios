@@ -17,7 +17,7 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [x] 2.2 - Git & GitHub - Entendendo os comandos
 - [x] 2.3 - Internet - Entendendo como ela funciona
 
-##### Bloco 3: [Introdução à HTML e CSS](#)
+##### Bloco 3: [Introdução à HTML e CSS](https://github.com/HigorAnjos/trybe-exercicios/tree/main/fundamentos/bloco-3-introducao-a-html-e-css)
 - [x] 3.1 - Introdução - HTML & CSS
 - [x] 3.1 - HTML & CSS - Estruturas de página
 - [x] 3.2 - HTML & CSS - Primeiros passos em CSS
@@ -25,7 +25,7 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [x] 3.4 - HTML Semântico
 - [x] 3.5 - Projeto - Lessons Learned
 
-##### Bloco 4: [Introdução à JavaScript e Lógica de Programação](#)
+##### Bloco 4: [Introdução à JavaScript e Lógica de Programação](https://github.com/HigorAnjos/trybe-exercicios/tree/main/fundamentos/bloco-4-introducao-a-javascript-e-logica-de-programacao)
 - [x] 4.1 - Introdução - JavaScript
 - [x] 4.1 - JavaScript - Primeiros passos
 - [x] 4.2 - JavaScript - Array e loop For
@@ -33,7 +33,7 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [x] 4.4 - JavaScript - Objetos e funções
 - [x] 4.5 - Projeto - Playground Functions
 
-##### Bloco 5: [JavaScript: DOM, Eventos e Web Storage](#)
+##### Bloco 5: [JavaScript: DOM, Eventos e Web Storage](https://github.com/HigorAnjos/trybe-exercicios/tree/main/fundamentos/bloco-5-javascript-dom-eventos-e-web-storage)
 - [x] 5.1 - JavaScript - DOM e seletores
 - [x] 5.2 - JavaScript - Trabalhando com elementos
 - [x] 5.3 - JavaScript - Eventos
@@ -45,7 +45,7 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [x] 5.7 - (Bônus) Projeto - Adivinhe a Cor
 - [x] 5.7 - (Bônus) Projeto - Carta Misteriosa
 
-##### Bloco 6: [HTML e CSS: Forms, Flexbox e Responsivo](#)
+##### *Bloco 6: [HTML e CSS: Forms, Flexbox e Responsivo](https://github.com/HigorAnjos/trybe-exercicios/tree/main/fundamentos/bloco-6-html-e-css-forms-flexbox-e-responsivo)
 - [x] 6.1 - HTML & CSS - Forms
 - [x] 6.2 - Bibliotecas JavaScript e Frameworks CSS
 - [x] 6.3 - Introdução - CSS Flexbox
@@ -54,33 +54,33 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [x] 6.5 - CSS Responsivo - Mobile First
 - [x] 6.6 - Projeto - Página inicial do Facebook
 
-##### Bloco 7: [Introdução à JavaScript ES6 e Testes Unitários](#)
+##### *Bloco 7: [Introdução à JavaScript ES6 e Testes Unitários](#)
 - [x] 7.1 - JavaScript ES6 - let, const, arrow functions e template literals
 - [x] 7.2 - JavaScript ES6 - Objects
 - [x] 7.3 - Testes unitários em JavaScript
 - [x] 7.4 - Projeto - JavaScript Testes Unitários
 
-##### Bloco 8: [Higher Order Functions do JavaScript ES6](#) :hourglass_flowing_sand:
+##### Bloco 8: [Higher Order Functions do JavaScript ES6](https://github.com/HigorAnjos/trybe-exercicios/tree/main/fundamentos/bloco-8-higher-order-functions-do-javascript-es6) 
 - [x] 8.1 - JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort
 - [x] 8.2 - JavaScript ES6 - Higher Order Functions - map e filter
 - [x] 8.3 - JavaScript ES6 - Higher Order Functions - reduce
 - [ ] 8.4 - JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais
 - [ ] 8.5 - Projeto - Zoo functions
 
-##### Bloco 9: [JavaScript Assíncrono e Promises](#)
+##### Bloco 9: [JavaScript Assíncrono e Promises](https://github.com/HigorAnjos/trybe-exercicios/tree/main/fundamentos/bloco-9-javascript-e-testes-assincronos)
 - [ ] 9.1 - JavaScript Assíncrono e Callbacks
 - [ ] 9.2 - JavaScript Promises
 - [ ] 9.3 - Projeto - Carrinho de Compras
 
-##### Bloco 10: [Testes automatizados com Jest](#)
+<!-- ##### *Bloco 10: [Testes automatizados com Jest](#)
 - [ ] 10.1 - Primeiros passos no Jest
 - [ ] 10.2 - Jest - Testes Assíncronos
 - [ ] 10.3 - Jest - Simulando comportamentos
-- [ ] 10.4 - Projeto - Jest Assíncrono e Mocking
+- [ ] 10.4 - Projeto - Jest Assíncrono e Mocking -->
 
 ## Desenvolvimento Front-end 
 
-##### Bloco 11: [Introdução à React](#)
+##### Bloco 10: [Introdução à React](#)
 - [ ] 11.1 - Introdução - Front-end
 - [ ] 11.1 - Introdução - React
 - [ ] 11.1 - 'Hello, world!' no React!
@@ -125,11 +125,11 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [ ] 18.4 - Projeto - StarWars Datatable com Context API e Hooks
 
 ##### Bloco 19: Projeto App de Receitas
-- [ ] 19.1 - Projeto - App de Receitas
+- [x] 19.1 - Projeto - App de Receitas
 
 ## Desenvolvimento Back-end 
 
-##### Bloco 20: [Introdução à SQL](#)
+##### Bloco 20: [Introdução à SQL](#) :hourglass_flowing_sand:
 - [ ] 20.1 - Introdução - Back-end
 - [ ] 20.1 - Introdução - Bancos de dados relacionais
 - [ ] 20.1 - Banco de dados SQL
