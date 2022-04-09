@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+   
+}
+body
+{
+    background-color: #FDFFFC;
+}
+/* HEADER*/
+.logo
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: Griffy;
+    font-size: 2.5rem;
+    padding: 0 7%;
+
+
+}
+
+header
+{   
+    display: flex;
+    justify-content: space-between;
+    background-color: #8D91C7;
+    height: 150px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+header nav ul
+{
+    font-family: 'Open Sans';
+    display: flex;
+    font-size: 1.3rem;
+    font-weight: bold;
+    
+}
+header nav ul li
+{
+   margin: 30px;
+   text-transform: uppercase;
+    
+}
+@media(max-width: 700px)
+{
+    header
+    {   
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        background-color: #8D91C7;
+        height: 200px;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
+}
+
+/* CONTEUDO MAIN */
+main
+{
+    
+    display: felx;
+    flex-direction: column;
+    background-color: #FDFFFC;
+    align-items: center;
+    
+}
+.sumario
+{
+    background-color: #FDFFFC;
+    width: 25%;
+    position: fixed;
+    
+}
+.sumario li
+{
+    margin: 10px 15%;
+}
+.sumario li:first-child
+{
+    padding: 0% 10%;
+    margin-bottom: 15px;
+}
+article
+{
+    font-family: 'Open Sans';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+    padding-left: 25%;
+    padding-right: 10%;
+}
+article h1
+{
+    margin: 20px 0;
+    
+}
+.paragrafo
+{
+    display: flex;
+    
+}
+.paragrafo img
+{
+    margin-right: 10px;
+    width: 250px;
+    height: 250px;
+}
+hr
+{
+    width: 200px;
+    margin: 20px;
+
+
+}
+i
+{
+    margin: 5px;
+}
+section
+{
+    text-align: center;
+    margin: 20px;
+}
+footer
+{
+    display: flex;
+    flex-direction: column;
+    color: greenyellow;
+    background-color: #1F271B;
+    text-align: center;
+    align-items: center;
+    height: 130px;
+}
