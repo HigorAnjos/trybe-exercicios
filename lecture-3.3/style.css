@@ -1,0 +1,89 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: Montserrat, sans-serif;
+}
+
+p,
+li {
+    font-size: 16px;
+    color: #475550;
+}
+
+.trybe-green {
+color: #11a36a;
+}
+
+#main-title {
+color: #0a7e51;
+line-height: 55px;
+font-weight: 600;
+font-size: 45px;
+letter-spacing: -1px;
+}
+
+.section-title {
+line-height: 42px;
+font-weight: 600;
+font-size: 28px;
+}
+
+.testimonial-name {
+color: #11a36a;
+line-height: 20px;
+font-weight: 600;
+font-size: 14px;
+}
+
+.picture {
+border-radius: 100%;
+}
+
+.button {
+color: #fff;
+background-color: #11a36a;
+padding: 15px 30px;
+border-radius: 4px;
+font-size: 16px;
+line-height: 20px;
+font-weight: 700;
+text-decoration: none;
+}
+
+#header{
+    background-image: url('images/smiling-image.jpg');
+    background-size: cover;
+    padding: 60px 30px 40px;
+}
+
+#header-content{
+   max-width: 600px; 
+   text-align:justify;
+}
+h1{
+    text-align: left;
+}
+
+#market{
+    padding: 6em 30px;
+}
+
+#market h2 {
+    margin-bottom: 40px ;
+}
+
+#student-testimonial-wrapper{
+    max-width: 80%;
+    margin: 0 auto;
+}
+.student-container{
+    width: 33%;
+    display:inline-block;
+    margin: 10px 0px;
+}
+.student-container img{
+    margin-bottom: 50px;
+}
