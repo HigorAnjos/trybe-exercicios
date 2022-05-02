@@ -1,0 +1,1 @@
+SELECT MAX(SALARY) - MIN(SALARY) as 'diferenca entre o menor e maior salario' FROM hr.employees;
