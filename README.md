@@ -144,11 +144,11 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [ ] 21.3 - Stored Routines & Subqueries
 - [ ] 21.4 - Projeto - Vocabulary Booster -->
 
-##### Bloco 22: [Normalização e Modelagem de Banco de Dados](#)
+<!-- ##### Bloco 22: [Normalização e Modelagem de Banco de Dados](#)
 - [x] 22.1 - Transformando ideias em um modelo de banco de dados
 - [x] 22.2 - Normalização, Formas Normais e Dumps
 - [x] 22.3 - Transformando ideias em um modelo de banco de dados - Parte 2
-- [x] 22.4 - Projeto - One For All
+- [x] 22.4 - Projeto - One For All -->
 
 ##### Bloco 23: [NodeJS: Camada de Serviço e Arquitetura Rest e Restful](#)
 - [ ] 23.1 - Introdução - Arquitetura de Software

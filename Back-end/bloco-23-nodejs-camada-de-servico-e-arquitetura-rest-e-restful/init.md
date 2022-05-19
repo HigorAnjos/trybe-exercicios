@@ -1,0 +1,1 @@
+iniciando exercicicios do dia
