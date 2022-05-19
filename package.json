@@ -1,0 +1,13 @@
+{
+  "name": "trybe-exercicios",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:HigorAnjos/trybe-exercicios.git",
+  "author": "higor cavalcante dos anjos <higorc.anjos@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@commitlint/cli": "^17.0.0",
+    "@commitlint/config-conventional": "^17.0.0",
+    "husky": "^8.0.1"
+  }
+}

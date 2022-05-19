@@ -5,7 +5,3 @@
 !.vscode/extensions.json
 *.code-workspace
 node_modules
-
-package.json
-yarn.lock
-.husky
