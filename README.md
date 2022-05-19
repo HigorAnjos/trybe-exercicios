@@ -129,7 +129,7 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 
 ## Desenvolvimento Back-end 
 
-##### Bloco 20: [Introdução à SQL](#) :hourglass_flowing_sand:
+<!-- ##### Bloco 20: [Introdução à SQL](#) :hourglass_flowing_sand:
 - [ ] 20.1 - Introdução - Back-end
 - [ ] 20.1 - Introdução - Bancos de dados relacionais
 - [ ] 20.1 - Banco de dados SQL
@@ -142,14 +142,23 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [ ] 21.1 - Funções mais usadas no SQL
 - [ ] 21.2 - Descomplicando JOINs e UNIONs
 - [ ] 21.3 - Stored Routines & Subqueries
-- [ ] 21.4 - Projeto - Vocabulary Booster
+- [ ] 21.4 - Projeto - Vocabulary Booster -->
 
 ##### Bloco 22: [Normalização e Modelagem de Banco de Dados](#)
-- [ ] 22.1 - Transformando ideias em um modelo de banco de dados
-- [ ] 22.2 - Normalização, Formas Normais e Dumps
-- [ ] 22.3 - Transformando ideias em um modelo de banco de dados - Parte 2
-- [ ] 22.4 - Projeto - One For All
+- [x] 22.1 - Transformando ideias em um modelo de banco de dados
+- [x] 22.2 - Normalização, Formas Normais e Dumps
+- [x] 22.3 - Transformando ideias em um modelo de banco de dados - Parte 2
+- [x] 22.4 - Projeto - One For All
 
+##### Bloco 23: [NodeJS: Camada de Serviço e Arquitetura Rest e Restful](#)
+- [ ] 23.1 - Introdução - Arquitetura de Software
+<!-- - [ ] 23.1 - Arquitetura de Software - Camada de Model
+- [ ] 23.2 - Arquitetura de Software - Camada de Controller e Service
+- [ ] 23.3 - Arquitetura Web - Rest e Restful
+- [ ] 23.4 - Arquitetura de Software - Testando as Camadas
+- [ ] 23.5 - Projeto - Store Manager -->
+
+<!-- 
 ##### Bloco 23: [Introdução ao MongoDB](#)
 - [ ] 23.1 - Introdução - NoSQL
 - [ ] 23.1 - MongoDB - Introdução
@@ -174,14 +183,6 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [ ] 26.4 - Express: HTTP com Node.js
 - [ ] 26.5 - Praticando Express
 - [ ] 26.6 - Projeto - Talker manager
-
-##### Bloco 27: [NodeJS: Camada de Serviço e Arquitetura Rest e Restful](#)
-- [ ] 27.1 - Introdução - Arquitetura de Software
-- [ ] 27.1 - Arquitetura de Software - Camada de Model
-- [ ] 27.2 - Arquitetura de Software - Camada de Controller e Service
-- [ ] 27.3 - Arquitetura Web - Rest e Restful
-- [ ] 27.4 - Arquitetura de Software - Testando as Camadas
-- [ ] 27.5 - Projeto - Store Manager
 
 ##### Bloco 28: [Autenticação e Upload de Arquivos](#)
 - [ ] 28.1 - NodeJS - JWT - (JSON Web Token)
@@ -248,4 +249,4 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [ ] 38.1 - Nó e Listas Encadeadas
 - [ ] 38.2 - Deque
 - [ ] 38.3 - Pilhas
-- [ ] 38.4 - Projeto - TING - Trybe Is Not Google
+- [ ] 38.4 - Projeto - TING - Trybe Is Not Google -->
