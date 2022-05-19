@@ -232,7 +232,7 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [ ] 35.3 - Padrões de projeto
 - [ ] 35.4 - Projeto - Relatórios de Estoque
 
-##### Bloco 36: Algoritmos e Estrutura de Dados
+<!-- ##### Bloco 36: Algoritmos e Estrutura de Dados
 - [ ] 36.1 - Complexidade de Algoritmos
 - [ ] 36.2 - Recursividade e Estratégias para solução de problemas
 - [ ] 36.3 - Algoritmos de ordenação e busca
@@ -248,4 +248,4 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [ ] 38.1 - Nó e Listas Encadeadas
 - [ ] 38.2 - Deque
 - [ ] 38.3 - Pilhas
-- [ ] 38.4 - Projeto - TING - Trybe Is Not Google
+- [ ] 38.4 - Projeto - TING - Trybe Is Not Google -->
