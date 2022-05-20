@@ -21,6 +21,19 @@ app.get('/authors/:id', async (req, res) => {
 	res.status(200).json(author);
 });
 
+app.post('/authors', async (req, res) => {
+	const { first_name, middle_name, last_name } = req.body;
+
+	if (!author.isValid(first_name, middle_name, last_name)) {
+		return res.status(400).json({ message: 'Dados inválidos' });
+	}
+
+	await author.create(first_name, middle_name, last_name);
+
+	res.status(201).json({ message: 'Autor criado com sucesso! '});
+});
+
+
 app.get('/books', async (_req, res) => {
   const books = await book.getAll();
 
@@ -35,6 +48,16 @@ app.get('/books/:id', async (req, res) => {
 
   return res.status(200).json(books);
 });
+
+app.post('books', async (req, res) => {
+  const { title, author_id } = req.body;
+  if (!book.isValid(title, author_id)) {
+    return res.status(400).json({ message: 'Dados inválidos' });
+  }
+  book.create(title, author_id);
+  return res.status(201).json({ message: 'Livro criado com sucesso! '});
+});
+
 
 app.listen(PORT, () => {
 	console.log(`Ouvindo a porta ${PORT}`);
