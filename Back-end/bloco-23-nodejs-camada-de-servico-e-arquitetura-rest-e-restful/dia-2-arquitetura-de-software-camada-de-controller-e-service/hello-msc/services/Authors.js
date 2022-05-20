@@ -1,58 +1,68 @@
 const Author = require('../models/Author');
 
-const getNewAuthor = (authorData) => {
-  const { id, firstName, middleName, lastName } = authorData;
-
-  const fullName = [firstName, middleName, lastName]
-    .filter((name) => name)
-    .join(' ');
-
-  return {
-    id,
-    firstName,
-    middleName,
-    lastName,
-    name: fullName,
-  };
-};
-
-const isValid = (firstName, middleName, lastName) => {
-  if (!firstName || typeof firstName !== 'string') return false;
-  if (!lastName || typeof lastName !== 'string') return false;
-  if (middleName && typeof middleName !== 'string') return false;
-
-  return true;
-};
-
-const getAll = async () => {
-  const authors = await Author.getAll();
-
-  return authors.map(getNewAuthor);
-};
+const getAll = async () => Author.getAll();
 
 const findById = async (id) => {
   const author = await Author.findById(id);
 
-  return getNewAuthor(author);
+  if (!author) {
+    return {
+      error: {
+        code: 'notFound',
+        message: `Não foi possível encontrar uma pessoa autora com o id ${id}`,
+      },
+    };
+  }
+
+  return author;
 };
 
+
 const createAuthor = async (firstName, middleName, lastName) => {
-  const validAuthor = isValid(firstName, middleName, lastName);
+  const existingAuthor = await Author.findByName(firstName, middleName, lastName);
 
-  if (!validAuthor) return false;
+  if (existingAuthor) {
+    return {
+      error: {
+        code: 'alreadyExists',
+        message: 'Uma pessoa autora já existe com esse nome completo',
+      },
+    };
+  }
 
-  const [author] = await Author.createAuthor(firstName, middleName, lastName);
+  // Caso a pessoa autora não exista e, portanto, possa ser criado
+  return Author.createAuthor(firstName, middleName, lastName);
+};
 
-  return getNewAuthor({
-    id: author.id,
-    firstName,
-    middleName,
-    lastName,
-  });
+
+const findByName = async (firstName, middleName, lastName) => {
+  // Determinamos se devemos buscar com ou sem o nome do meio
+  let query = `
+    SELECT id, first_name, middle_name, last_name 
+    FROM model_example.authors
+  `;
+
+  if (middleName) {
+    query += 'WHERE first_name = ? AND middle_name = ? AND last_name = ?';
+  } else {
+    query += 'WHERE first_name = ? AND last_name = ?';
+  }
+
+  const params = middleName ? [firstName, middleName, lastName] : [firstName, lastName];
+
+  // Executamos a consulta e retornamos o resultado
+  const [authorData] = await connection.execute(query, params);
+
+  // Caso nenhum author seja encontrado, devolvemos null
+  if (authorData.length === 0) return null;
+
+  // Caso contrário, retornamos o author encontrado
+  return serialize(authorData);
 };
 
 module.exports = {
   getAll,
   findById,
   createAuthor,
+  findByName,
 };
