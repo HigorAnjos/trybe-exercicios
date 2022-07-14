@@ -10,6 +10,7 @@ class Superclass {
   }
 };
 
+
 class Subclass extends Superclass {
   constructor () {
     super(true);
@@ -24,8 +25,8 @@ class Subclass extends Superclass {
 //   sup.sayHello();
 // }
 
-function myFunc (sup: Subclass) {
-  sup.sayHello2();
+function myFunc (sub: Subclass) {
+  sub.sayHello2();
 }
 
 const obj = new Subclass();

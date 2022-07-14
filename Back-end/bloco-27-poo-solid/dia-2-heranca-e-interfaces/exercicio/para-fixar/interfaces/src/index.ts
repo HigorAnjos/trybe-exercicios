@@ -13,5 +13,4 @@ class MyClass implements IMyinterface {
     const sum = this.myNumber + myParam;
     return sum.toString();
   }
-
 }
