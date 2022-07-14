@@ -1,5 +1,3 @@
-// ./tests/getLetterGrades.spec.ts
-
 import { expect } from 'chai';
 import { getLetterGrades } from '../src';
 
